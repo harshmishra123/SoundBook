@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color: aquamarine;
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+nav{
+ font-family: 'Ubuntu',sans-serif;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 70px;
+    background-color: black;
+    color: white;
+
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width:50px;
+    padding: 0 8px;
+}
+
+.brand{
+    display: flex;
+   align-items: center;
+   font-weight: bolder;
+   font-size: 1.3rem;
+}
+.container{
+    min-height: 65vh;
+    background-color: black;
+    color: white;
+    font-family:sans-serif;
+    display: flex;
+    width:90%;
+    margin: 10px auto;
+    padding:35px;
+    border-radius: 10px;
+    background-image: url(bg.jpg);
+}
+.card1 {
+    
+    position: relative;
+    top: 20px;
+    left: 35px;
+    height: 560px;
+    overflow-y: hidden;
+}
+.card2 {
+    
+    position: absolute;
+    top: 170px;
+    left: 655px;
+    width: 500px;
+    height: 560px;
+    overflow-y:visible;
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 25px;
+}
+.icons i{
+    cursor: pointer;
+}
+#gif{
+    position:absolute;
+    top: 35px;
+    left: 400px;
+}
+#MyProgressBar{
+text-align: center;
+cursor: pointer;
+width: 1000px;
+}
+.songItem{
+height: 45px;
+display: flex;
+background-color: white;
+width: 80%;
+color: black;
+margin: 12px 0; 
+justify-content:space-around;
+align-items: center;
+border-radius: 34px;
+
+}
+.songItem img{
+    width: 43px;
+border-radius: 34px;
+margin:0 23px;
+}
+.timestamp
+{
+    margin:0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+.songItemContainer{
+    margin-top: 74px;
+
+}
+.songInfo{
+    position: absolute;
+    left: 0;
+    font-family: sans-serif;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity .1s ease-in;
+}
+.contain {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex: 1;
+}
+.progress-bar {
+    position: absolute;
+    bottom: 50px;
+    left: 30%;
+  width: 750px;
+  height: 10px; 
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.progress {
+  height: 100%;
+  background-color: #007bff;
+}
+
+#repeatBtn{
+    width: 25px;
+    height: 25px;
+    border-radius: 34px;
+    position: relative;
+    left: 5px;
+}
+#shivaji {
+    position: relative;
+    left: -39px;
+    display: block;
+    border-radius: 34px;
+    width: 44px;
+    height: 44px;
+}
+#DG {
+    position: relative;
+    left: -49px;
+    top: 1px;
+    display: block;
+    border-radius: 34px;
+    width: 44px;
+    height: 44px;
+}
+#TS {
+    position: relative;
+    left: -33px;
+    display: block;
+    border-radius: 34px;
+    width: 44px;
+    height: 44px;
+}
+#XY {
+    position: relative;
+    left: -30px;
+    display: block;
+    border-radius: 34px;
+    width: 44px;
+    height: 44px;
+}
+#KMSJH {
+    position: relative;
+    left: -45px;
+    top: 1px;
+    display: block;
+    border-radius: 34px;
+    width: 44px;
+    height: 44px;
+}
+#NS {
+    position: relative;
+    left: -30px;
+    display: block;
+    border-radius: 34px;
+    width: 44px;
+    height: 44px;
+}
+#B {
+    position: relative;
+    left: -58px;
+    display: block;
+    border-radius: 34px;
+    width: 44px;
+    height: 44px;
+}
+#H {
+    position: relative;
+    left: -23px;
+    display: block;
+    border-radius: 34px;
+    width: 40px;
+    height: 40px;
+}
+#M {
+    position: relative;
+    left: -40px;
+    top: auto;
+    display: block;
+    border-radius: 34px;
+    width: 44px;
+    height: 44px;
+}
+#ipl {
+    position: relative;
+    left: -41px;
+    display: block;
+    border-radius: 34px;
+    width: 44px;
+    height: 44px;
+}
+#mahabharat {
+    position: relative;
+    left: -41px;
+    display: block;
+    border-radius: 34px;
+    width: 44px;
+    height: 44px;    
+}
+.songlist {
+    overflow-x: auto;}
