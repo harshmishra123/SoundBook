@@ -1,0 +1,99 @@
+/* sportify.css */
+
+/* Reset default browser styles */
+body, ul, li, h1, h2, h3, p, button, audio {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  /* Common styles for all devices */
+  body {
+    background-color: aquamarine;
+  }
+  
+  nav {
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  nav img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav ul li {
+    color: white;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+  .container {
+    padding: 20px;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .songListplay button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .icons i {
+    cursor: pointer;
+    margin: 0 10px;
+    color: #6a87b9;
+  }
+  
+  #gif {
+    display: none;
+  }
+  
+  /* Media queries for responsive design */
+  @media (max-width: 5px) {
+    nav {
+      justify-content: center; 
+    }
+  
+    nav img {
+      width: 30px;
+      height: 30px;
+    }
+  
+    nav ul li {
+      font-size: 14px;
+    }
+}
+    
+  
+    
